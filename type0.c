@@ -9,12 +9,11 @@ int main () {
 	scanf("%i", &n);
 	
 	while( n!= 0) {
+		sum = sum + n;	
+		q = q + 1;
+		
 		printf("Type a number:\n");
 		scanf("%i", &n);
-		
-		sum = sum + n;
-				
-		q = q + 1;
 	}
 	
 	average = sum / q;
