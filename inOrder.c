@@ -1,4 +1,4 @@
-/*Escreva um programa que leia 3 números inteiros e mostre-os em ordem crescente.*/
+/*Escreva um programa que leia 3 nÃºmeros inteiros e mostre-os em ordem crescente.*/
 
 #include <stdio.h>
 
@@ -6,7 +6,7 @@ int main() {
 
     int n1, n2, n3;
 
-    printf("Type 3 hole numbers:\n");
+    printf("Type 3 whole numbers:\n");
     scanf("%d %d %d", &n1, &n2, &n3);
 
     if (n1<n2 && n2<n3){
