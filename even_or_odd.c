@@ -2,14 +2,17 @@
 
 int main() {
 	int n;
-	printf("Which is the number?\n");
+	printf("Type a number?\n");
 	scanf("%d", &n);
-	
-	if( n%2 == 0){
-		printf("%d is even", n);
-	}
+
+	if(n!=0)
+		if( n%2 == 0){
+			printf("%d is even.", n);
+		}
+		else 
+			printf("%d is odd.", n);
 	else 
-		printf("%d is odd", n);
+		printf("%d is not even neither odd", n);
 	
 	return 0;
 	
