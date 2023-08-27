@@ -9,7 +9,7 @@ programa termina quando o código da venda for igual a zero.*/
 int main() {
 
     int codigo;
-    float vav = 0, vf = 0, somaav = 0, somaf = 0, vt = 0;
+    float vav = 0, vf = 0, somaav, somaf, vt;
 
     printf("Choose the the payment type:\n\t(1) Cash Payment;\n\t(2) Foward;\n\t"
     "(3) Final value;\n\t(0) Exit.\n");
@@ -30,9 +30,11 @@ int main() {
                     break;
             default: printf("\nInvalid value.\n");
         }
-
+        somaav = 0;
+        somaf = 0;
         somaav = somaav + vav;
         somaf = somaf + vf;
+        vt = 0;
         vt = somaav + somaf;
         
         printf("\nChoose the the payment type:\n\t(1) Cash Payment;\n\t(2) Foward;\n\t"
