@@ -9,11 +9,11 @@ int main(){
     do {
         scanf("%d", &a);
         if(a!=b){
-            c+=1;
+            c++;
         }
         b = a;
         
-        n-=1;
+        n--;
     }while (n>0);
     printf("%d\n", c);
     return 0;
