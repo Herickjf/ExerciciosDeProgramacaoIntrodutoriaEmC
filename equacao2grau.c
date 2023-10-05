@@ -18,8 +18,11 @@ int main(){
     printf("Digite os índices a, b e c da sua equação de Segundo Grau: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    printf("\n\nDelta = %d\n\n", D(a,b,c));
-    X(D(a,b,c), a, b);
+    printf("\n\nDelta = %d\n\n\n", D(a,b,c));
+    if (D(a,b,c)< 0)
+        printf("Não há resultado para essa equação. Pois delta é menor que 0.\n\n\n");
+    else
+        X(D(a,b,c), a, b);
 
     return 0;
 }
