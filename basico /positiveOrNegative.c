@@ -1,4 +1,4 @@
-//Ler um número e dizer se ele é positivo ou negativo. Caso seja 0, o programa finaliza.
+//Ler um nÃºmero e dizer se ele Ã© positivo ou negativo. Caso seja 0, o programa finaliza.
 
 #include <stdio.h>
 
