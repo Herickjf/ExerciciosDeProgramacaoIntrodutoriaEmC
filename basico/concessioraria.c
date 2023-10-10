@@ -1,8 +1,8 @@
-/*A concession·ria de veÌculos ìCARANGO VELHOî est· vendendo os seus veÌculos
-com desconto. O desconto È calculado sobre o valor do veÌculo de acordo com o tipo do
-combustÌvel do veÌculo (·lcool ñ 25%, gasolina ñ 21% ou diesel ñ14%). Escreva um
-programa que leia o valor de venda do veÌculo, calcule e mostre o valor do desconto e o
-valor final do veÌculo que ser· pago pelo cliente.
+/*A concession√°ria de ve√≠culos ‚ÄúCARANGO VELHO‚Äù est√° vendendo os seus ve√≠culos
+com desconto. O desconto √© calculado sobre o valor do ve√≠culo de acordo com o tipo do
+combust√≠vel do ve√≠culo (√°lcool ‚Äì 25%, gasolina ‚Äì 21% ou diesel ‚Äì14%). Escreva um
+programa que leia o valor de venda do ve√≠culo, calcule e mostre o valor do desconto e o
+valor final do ve√≠culo que ser√° pago pelo cliente.
 */
 
 #include <stdio.h>
