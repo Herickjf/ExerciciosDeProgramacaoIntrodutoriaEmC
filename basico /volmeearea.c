@@ -1,4 +1,4 @@
-//Fazer programa que calcule e mostre a área e o volume de um cilindro, sabe-se que A= 2pi r (h+r) e V=pi r² h.
+//Fazer programa que calcule e mostre a Ã¡rea e o volume de um cilindro, sabe-se que A= 2pi r (h+r) e V=pi rÂ² h.
 
 #include <stdio.h>
 #include <math.h>
