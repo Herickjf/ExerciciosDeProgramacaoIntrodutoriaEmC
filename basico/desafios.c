@@ -1,4 +1,4 @@
-// FaÁa um programa que calcule e mostre a ·rea de um cÌrculo. Sabe-se que: ¡rea = pi R≤
+// Fa√ßa um programa que calcule e mostre a √°rea de um c√≠rculo. Sabe-se que: √Årea = pi R¬≤
 
 #include <stdio.h>
 #include <math.h>
@@ -12,7 +12,7 @@ int main () {
     printf("Ola, este eh um programa que vai calcular a area do seu circulo pra voce!\n\tDigite o raio do seu circulo (lembre-se, raio = metade do diametro:");
     scanf ("%f", &r);
 
-    //C·lculos:
+    //C√°lculos:
     area = 3.14 * pow(r,2);
 
     //Exibir o resultado:
