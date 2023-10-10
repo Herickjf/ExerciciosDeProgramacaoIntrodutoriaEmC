@@ -1,14 +1,14 @@
-//Faça um programa que receba três notas, calcule e mostre a média aritmética das notas.
+//FaÃ§a um programa que receba trÃªs notas, calcule e mostre a mÃ©dia aritmÃ©tica das notas.
 // Como fazer?
 //
 #include <stdio.h>
 
 int main (void) {
 
-    //Definir variáveis:
+    //Definir variÃ¡veis:
     float nota_1, nota_2, nota_3, media;
 
-    //Receber as informações:
+    //Receber as informaÃ§Ãµes:
     printf("Ola! Vamos calcular a sua media!\n");
     printf("Digite sua Primeira nota e press ENTER.\n");
     scanf ("%f", &nota_1);
@@ -19,10 +19,10 @@ int main (void) {
     printf("Por fim, digite sua Terceira nota e press ENTER.\n");
     scanf ("%f", &nota_3);
 
-    //Calcular a média:
+    //Calcular a mÃ©dia:
     media = (nota_1 + nota_2 + nota_3) / 3;
 
-    //Devolver ao user sua média:
+    //Devolver ao user sua mÃ©dia:
 
     printf ("Sua media eh = %.1f", media);
 
