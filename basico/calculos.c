@@ -1,15 +1,15 @@
-// Fazer um programa que receba um n˙mero positivo e maior que zero, calcule e mostre
-// > O n˙mero digitado ao quadrado;
-// > O n˙mero digitado ao cubo;
-// > A raÌz quadrada do n˙mero digitado;
-// > A raÌz c˙bica do n˙mero digitado.
+// Fazer um programa que receba um n√∫mero positivo e maior que zero, calcule e mostre
+// > O n√∫mero digitado ao quadrado;
+// > O n√∫mero digitado ao cubo;
+// > A ra√≠z quadrada do n√∫mero digitado;
+// > A ra√≠z c√∫bica do n√∫mero digitado.
 
 #include <stdio.h>
 #include <math.h>
 
 int main () {
 
-//Definir as vari·veis:
+//Definir as vari√°veis:
     float n, quadrado, cubo, raiz_quadrada, raiz_cubica;
 
 //Receber dados:
