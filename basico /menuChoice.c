@@ -1,9 +1,9 @@
-// Faça um programa que exiba um menu e resolva as operações que o user selecionar.
+// FaÃ§a um programa que exiba um menu e resolva as operaÃ§Ãµes que o user selecionar.
 //menu:
-// 1. adição
-// 2. subtração
-// 3. multiplicação
-// 4. divisão
+// 1. adiÃ§Ã£o
+// 2. subtraÃ§Ã£o
+// 3. multiplicaÃ§Ã£o
+// 4. divisÃ£o
 // 0. sair.
 
 #include <stdio.h>
