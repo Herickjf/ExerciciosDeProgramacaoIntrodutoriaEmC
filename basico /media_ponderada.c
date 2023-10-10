@@ -1,14 +1,14 @@
-//Faça um programa que receba três notas e seus respectivos pesos, calcule e mostre a média ponderada das notas.
+//FaÃ§a um programa que receba trÃªs notas e seus respectivos pesos, calcule e mostre a mÃ©dia ponderada das notas.
 
 #include <stdio.h>
 
 int main (void) {
 
-    //Definir variáveis:
+    //Definir variÃ¡veis:
     float nota_1, nota_2, nota_3, media;
     int peso_1, peso_2, peso_3;
 
-    //Receber as informações:
+    //Receber as informaÃ§Ãµes:
     printf("Ola! Vamos calcular a sua media!\n");
 
     //Nota 1 e Peso 1:
@@ -27,10 +27,10 @@ int main (void) {
     printf("Digite o peso da terceira nota e press ENTER.\n");
     scanf ("%i", &peso_3);
 
-    //Calcular a média ponderada:
+    //Calcular a mÃ©dia ponderada:
     media = (nota_1*peso_1 + nota_2*peso_2 + nota_3*peso_3) / (peso_1 + peso_2 + peso_3);
 
-    //Devolver ao user sua média ponderada:
+    //Devolver ao user sua mÃ©dia ponderada:
     printf ("Sua media ponderada eh = %.1f", media);
     if (media>=7.0){
             printf("Parabens, voce passou por media! Vai curtir as ferias!!");
