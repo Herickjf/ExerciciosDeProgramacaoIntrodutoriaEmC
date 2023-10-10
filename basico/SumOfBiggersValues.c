@@ -1,4 +1,4 @@
-//FaÁa um programa para ler 3 valores e escrever a soma dos 2 maiores. Considere que o usu·rio n„o informar valores iguais.
+//Fa√ßa um programa para ler 3 valores e escrever a soma dos 2 maiores. Considere que o usu√°rio n√£o informar valores iguais.
 
 #include <stdio.h>
 
