@@ -1,4 +1,4 @@
-//Fazer um programa para calcular dois números inteiros e devolver a divisão deles e o resto:
+//Fazer um programa para calcular dois nÃºmeros inteiros e devolver a divisÃ£o deles e o resto:
 
 #include <stdio.h>
 #include <math.h>
