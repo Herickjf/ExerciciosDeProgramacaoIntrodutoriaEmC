@@ -17,6 +17,6 @@ int criptografa(char *str){
 		    str[i]='*';
 			n++;
 		}
-	};
+	}
 	return n;
 }
