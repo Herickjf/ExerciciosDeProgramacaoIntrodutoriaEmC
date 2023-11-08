@@ -18,7 +18,7 @@ int main()
 	
 	media = media / n;
 	
-	printf("Your average is equals %f\n", media);
+	printf("Your average is equals %.2f\n", media);
 	return 0;
 	
 }
