@@ -8,17 +8,17 @@ c) Se D > 0 – há duas soluções reais e diferentes: x1 e x2.
 #include <stdio.h>
 #include <math.h>
 
-int D(int a, int b, int c);
-void X(int d, int a, int b);
+float D(float a, float b, float c);
+void X(float d, float a, float b);
 
 int main(){
 
-    int a, b, c;
+    float a, b, c;
 
     printf("Digite os índices a, b e c da sua equação de Segundo Grau: ");
-    scanf("%d %d %d", &a, &b, &c);
+    scanf("%f %f %f", &a, &b, &c);
 
-    printf("\n\nDelta = %d\n\n\n", D(a,b,c));
+    printf("\n\nDelta = %.2f\n\n\n", D(a,b,c));
     if (D(a,b,c)< 0)
         printf("Não há resultado para essa equação. Pois delta é menor que 0.\n\n\n");
     else
@@ -27,18 +27,18 @@ int main(){
     return 0;
 }
 
-int D(int a, int b, int c){
-    int delta;
+float D(float a, float b, float c){
+    float delta;
     delta = pow(b,2) - (4* a * c);
     return delta;
 }
 
-void X(int d, int a, int b){
-    int x1, x2;
+void X(float d, float a, float b){
+    float x1, x2;
 
     x1 = (-b + (sqrt(d)))/ 2*a;
     x2 = (-b - (sqrt(d)))/ 2*a;
 
-    printf("x1 = %d\n", x1);
-    printf("x2 = %d\n\n", x2);
+    printf("x1 = %.2f\n", x1);
+    printf("x2 = %.2f\n\n", x2);
 }
