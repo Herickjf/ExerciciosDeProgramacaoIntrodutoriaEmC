@@ -12,7 +12,7 @@ int main() {
 		else 
 			printf("%d is odd.", n);
 	else 
-		printf("%d is not even neither odd", n);
+		printf("%d is neither even nor odd", n);
 	
 	return 0;
 	
